@@ -18,7 +18,7 @@
 
 # Directory Contol
 CR_DIR=$(pwd)
-CR_TC=~/linaro-6.4.1/bin/aarch64-linux-gnu-
+CR_TC=~/linaro-7.3.1/bin/aarch64-linux-gnu-
 CR_DTS=arch/arm64/boot/dts
 CR_OUT=$CR_DIR/Helios/Out
 CR_AIK=$CR_DIR/Helios/A.I.K
