@@ -709,7 +709,6 @@
 		cooling_level_5 = <91>;
 		cooling_level_6 = <96>;
 		cooling_level_7 = <96>;
-		cooling_level_8 = <96>;		
 	};
 
 	tmuctrl_1: tmuctrl_CPUCL1@10130000 {
@@ -766,7 +765,6 @@
 		cooling_level_5 = <91>;
 		cooling_level_6 = <96>;
 		cooling_level_7 = <96>;
-		cooling_level_8 = <96>;	
 		
 		hotplug_enable = <1>;
 		hotplug_in_threshold = <91>;
@@ -810,12 +808,12 @@
 
 		freq_tab_count = <6>;
 
-		freq_clip_max_0 = <1146000>;
-		freq_clip_max_1 = <1001000>;
-		freq_clip_max_2 = <728000>;
-		freq_clip_max_3 = <545000>;
+		freq_clip_max_0 = <1246000>;
+		freq_clip_max_1 = <1146000>;
+		freq_clip_max_2 = <1001000>;
+		freq_clip_max_3 = <728000>;
 		freq_clip_max_4 = <343000>;
-		freq_clip_max_5 = <160000>;
+		freq_clip_max_5 = <343000>;
 
 		cooling_level_0 = <81>;
 		cooling_level_1 = <86>;
@@ -825,16 +823,14 @@
 		cooling_level_5 = <106>;
 
 		/* gpu cooling related table */
-		gpu_idx_num = <8>;
+		gpu_idx_num = <6>;
 		/* flags, driver_data(index), frequency */
-		gpu_cooling_table = < 0 0 1146000
-				      0 1 1001000
-				      0 2 845000
-				      0 3 728000
-				      0 4 545000
-				      0 5 343000
-				      0 6 160000
-				      0 7 TABLE_END>;
+		gpu_cooling_table = < 0 0 1246000
+				      0 1 845000
+				      0 2 728000
+				      0 3 545000
+				      0 4 343000
+				      0 5 TABLE_END>;
 	};
 
 	/* modem_interface */

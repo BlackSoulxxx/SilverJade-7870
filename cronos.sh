@@ -18,7 +18,7 @@
 
 # Directory Contol
 CR_DIR=$(pwd)
-CR_TC=~/Android/Kernels/Toolchains/aarch64-linux-android-6.0-kernel/bin/aarch64-linux-android-
+CR_TC=~/linaro-6.4.1/bin/aarch64-linux-gnu-
 CR_DTS=arch/arm64/boot/dts
 CR_OUT=$CR_DIR/Helios/Out
 CR_AIK=$CR_DIR/Helios/A.I.K
@@ -26,9 +26,9 @@ CR_RAMDISK=$CR_DIR/Helios/Ramdisk
 CR_KERNEL=$CR_DIR/arch/arm64/boot/Image
 CR_DTB=$CR_DIR/boot.img-dtb
 # Kernel Variables
-CR_VERSION=V2.0
-CR_NAME=HeliosPro_Kernel
-CR_JOBS=5
+CR_VERSION=V0.4
+CR_NAME=SilverJade
+CR_JOBS=8
 #CR_ANDROID=o
 #CR_PLATFORM=8.0.0
 CR_ARCH=arm64
